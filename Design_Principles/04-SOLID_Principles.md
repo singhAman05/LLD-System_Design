@@ -1,4 +1,11 @@
-# 🗂️ SOLID Principles
+﻿---
+title: "SOLID Principles — The Complete Guide"
+series: "Design Principles"
+order: 4
+tags: [design-principles, solid, srp, ocp, lsp, isp, dip]
+---
+
+# SOLID Principles — The Complete Guide
 
 ## What are SOLID Principles?
 
@@ -21,7 +28,7 @@ The principles were popularized by **Robert C. Martin (Uncle Bob)** and serve as
 | I         | Interface Segregation Principle | Small focused interfaces                 |
 | D         | Dependency Inversion Principle  | Depend on abstractions                   |
 
-## 🗺️ Principle Map
+## Principle Map
 
 ```text
 SOLID
@@ -32,7 +39,7 @@ SOLID
 └── DIP → Dependency Inversion Principle
 ```
 
-# 🔑 S — Single Responsibility Principle (SRP)
+# S — Single Responsibility Principle (SRP)
 
 ### Definition
 
@@ -77,7 +84,7 @@ EmailService
 - Lower coupling
 - Cleaner design
 
-# 🔑 O — Open-Closed Principle (OCP)
+# O — Open-Closed Principle (OCP)
 
 ### Definition
 
@@ -122,7 +129,7 @@ Create new exporter implementations instead of modifying existing code.
 - Reduced regression bugs
 - Easier scalability
 
-# 🔑 L — Liskov Substitution Principle (LSP)
+# L — Liskov Substitution Principle (LSP)
 
 ### Definition
 
@@ -172,7 +179,7 @@ Penguins cannot fly.
 - Predictable behavior
 - Safer polymorphism
 
-# 🔑 I — Interface Segregation Principle (ISP)
+# I — Interface Segregation Principle (ISP)
 
 ### Definition
 
@@ -220,7 +227,7 @@ public:
 - Less coupling
 - Better flexibility
 
-# 🔑 D — Dependency Inversion Principle (DIP)
+# D — Dependency Inversion Principle (DIP)
 
 ### Definition
 
@@ -275,7 +282,7 @@ class OrderService {
 - Better flexibility
 - Lower coupling
 
-## 🎯 SOLID Summary
+## SOLID Summary
 
 | Principle | Goal |
 |------------|--------|
@@ -285,13 +292,13 @@ class OrderService {
 | ISP | Small focused interfaces |
 | DIP | Depend on abstractions |
 
-## 🔗 Related Notes
+## Related Notes
 
-- [[01-DRY_Principle]]
-- [[02-KISS_Principle]]
-- [[03-YAGNI_Principle]]
+- DRY Principle
+- KISS Principle
+- YAGNI Principle
 
-## 📝 Interview Takeaway
+## Interview Takeaway
 
 When designing systems:
 

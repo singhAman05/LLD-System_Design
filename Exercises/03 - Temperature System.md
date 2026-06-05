@@ -1,16 +1,23 @@
-# 📄 temperature_sensor.cpp — Temperature Sensor (Data Validation)
+﻿---
+title: "Temperature Sensor � Data Validation"
+series: "Exercises"
+order: 2
+tags: [cpp, oop, validation, stl-algorithms]
+---
 
-**File:** [[temperature_sensor.cpp]] **Concept:** Classes, Input Validation, STL Algorithms, Rounding
+# temperature_sensor.cpp — Temperature Sensor (Data Validation)
+
+**Concept:** Classes, Input Validation, STL Algorithms, Rounding
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Simulates a temperature sensor that collects readings, validates them (rejects out-of-range values), and computes statistics like average and count.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Input Validation
 
@@ -35,7 +42,7 @@ Multiply by 100 → round → divide by 100. A classic trick to round to 2 decim
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```cpp
 void addReading(double temp) {
@@ -66,7 +73,7 @@ Average: (22.5 + 23.1 + -10.0) / 3 = 11.87
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > Always validate input at the boundary of your class. Once bad data gets in, it's hard to clean up. **Fail early, fail loudly** (or silently, depending on your design).
 

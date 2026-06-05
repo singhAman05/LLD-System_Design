@@ -1,16 +1,23 @@
-# 📄 data_exporter.cpp — Data Exporter (Abstract Class + Template Method)
+﻿---
+title: "Data Exporter � Template Method Pattern"
+series: "Exercises"
+order: 7
+tags: [cpp, oop, abstract-class, template-method, design-patterns]
+---
 
-**File:** [[data_exporter.cpp]] **Concept:** Abstract Class, Pure Virtual, Template Method Pattern, Shared Validation
+# data_exporter.cpp — Data Exporter (Abstract Class + Template Method)
+
+**Concept:** Abstract Class, Pure Virtual, Template Method Pattern, Shared Validation
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Exports data in different formats (CSV, JSON). The base `DataExporter` class provides a shared `validate()` method and declares `exportData()` as pure virtual. Subclasses implement the format-specific export logic but all reuse the same validation.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Shared Logic in Base Class
 
@@ -59,7 +66,7 @@ Uses `size_t` index loop to detect the last element (to avoid a trailing comma).
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```
 csv.exportData({"Alice", "Bob", "Charlie"})
@@ -76,7 +83,7 @@ csv.exportData({})
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > Put **shared logic** in the base class, **format-specific logic** in subclasses. This avoids duplicating validation code across all exporters. Adding a new format (e.g., XML) means just writing one new class — no touching existing code.
 

@@ -1,16 +1,23 @@
-# 📄 discount_system.cpp — Discount System (Polymorphism + Strategy Pattern)
+﻿---
+title: "Discount System � Strategy Pattern"
+series: "Exercises"
+order: 8
+tags: [cpp, oop, polymorphism, strategy-pattern]
+---
 
-**File:** [[discount_system.cpp]] **Concept:** Abstract Class, Polymorphism, Strategy Pattern, `snprintf` for Label Formatting
+# discount_system.cpp — Discount System (Polymorphism + Strategy Pattern)
+
+**Concept:** Abstract Class, Polymorphism, Strategy Pattern, `snprintf` for Label Formatting
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 A flexible discount system supporting three types of discounts: percentage off, flat amount off, and buy-one-get-one-free. Each is its own class. The `orderProcessor` applies any discount without knowing its type — it just calls `describe()`.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Abstract Base: `discountSystem`
 
@@ -63,7 +70,7 @@ void processOrder(const string &itemName, double price, discountSystem *discount
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```
 Laptop $999.99 → 20% off: $999.99 -> $799.99
@@ -73,7 +80,7 @@ Keyboard $79.98 → BOGO: $79.98 -> $39.99
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > The **Strategy Pattern** = define a family of algorithms (discounts), encapsulate each one, make them interchangeable. Code that uses them (`orderProcessor`) doesn't need to change when new strategies are added.
 

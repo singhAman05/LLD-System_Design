@@ -1,16 +1,23 @@
-# 📄 food.cpp — Food Order System (State Management)
+﻿---
+title: "Food Order System � State Management"
+series: "Exercises"
+order: 1
+tags: [cpp, oop, encapsulation, state-management, vectors]
+---
 
-**File:** [[food.cpp]] **Concept:** Classes, Encapsulation, State Management, Vectors
+# food.cpp — Food Order System (State Management)
+
+**Concept:** Classes, Encapsulation, State Management, Vectors
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Models a food ordering system. An `order` object holds customer info, a list of items, total price, and an order status (`is_placed`). Once placed, the order is locked — no more items can be added.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### State Management with a Boolean Flag
 
@@ -31,7 +38,7 @@ A `vector` is like a dynamic array — it grows as you push items into it. Much 
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```cpp
 void add_item(string item, double price) {
@@ -68,7 +75,7 @@ for (const auto &item : items) {
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > State flags (`bool is_placed`) are a simple and powerful way to model **lifecycle transitions** in a class. Guard clauses enforce valid state at every step.
 

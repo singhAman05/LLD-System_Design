@@ -1,16 +1,23 @@
-# 📄 payments.cpp — Payment Gateway (Abstract Class + Dependency Injection)
+﻿---
+title: "Payment Gateway � Abstract Classes & Dependency Injection"
+series: "Exercises"
+order: 6
+tags: [cpp, oop, abstract-class, dependency-injection, polymorphism]
+---
 
-**File:** [[payments.cpp]] **Concept:** Abstract Class, Pure Virtual Functions, Dependency Injection, Polymorphism
+# payments.cpp — Payment Gateway (Abstract Class + Dependency Injection)
+
+**Concept:** Abstract Class, Pure Virtual Functions, Dependency Injection, Polymorphism
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Defines a pluggable payment system. `Payment_Gateway` is an **abstract interface** — it forces any payment provider (PayPal, Stripe) to implement `process_payment()`. The `checkout_service` accepts any gateway and works with all of them the same way.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Abstract Class with Pure Virtual Function
 
@@ -57,7 +64,7 @@ public:
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```cpp
 PayPal paypal_gateway;
@@ -72,7 +79,7 @@ stripe_checkout.complete_checkout(200.0);  // "Processing Stripe payment of $200
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > Abstract classes define **contracts**. Dependency injection + polymorphism = code that is **open to extension** (add new gateways) but **closed to modification** (don't touch `checkout_service`). This is the Open/Closed Principle.
 

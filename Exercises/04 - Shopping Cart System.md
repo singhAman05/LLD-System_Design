@@ -1,16 +1,23 @@
-# 📄 shoppingCart_system.cpp — Shopping Cart System
+﻿---
+title: "Shopping Cart System � Maps & Discount Logic"
+series: "Exercises"
+order: 3
+tags: [cpp, oop, unordered-map, encapsulation]
+---
 
-**File:** [[shoppingCart_system.cpp]] **Concept:** Classes, `unordered_map`, State Flags, Discount Logic
+# shoppingCart_system.cpp — Shopping Cart System
+
+**Concept:** Classes, `unordered_map`, State Flags, Discount Logic
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 A shopping cart that lets you add items (by price), apply a discount code, calculate total, and check out. Once checked out, the cart is locked — nothing can be added or discounted further.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### `unordered_map<string, double>`
 
@@ -38,7 +45,7 @@ Ensures prices always display with exactly 2 decimal places (e.g., `$926.98` not
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```cpp
 void addItem(string item, double quantity) {
@@ -81,7 +88,7 @@ Total still: $926.98
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > Boolean state flags are great for simple lifecycle control. The cart can only move **forward** (open → checked out), never backward — just like real e-commerce systems.
 

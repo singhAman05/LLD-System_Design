@@ -1,3 +1,12 @@
+﻿---
+title: "YAGNI Principle — You Aren't Gonna Need It"
+series: "Design Principles"
+order: 3
+tags: [design-principles, yagni, simplicity, agile]
+---
+
+# YAGNI Principle — You Aren't Gonna Need It
+
 ## What is the YAGNI Principle?  
   
 **YAGNI (You Aren't Gonna Need It)** is a software design principle that encourages developers to build only what is required today and avoid implementing features based on future assumptions.  
@@ -10,7 +19,7 @@ YAGNI originated from **Extreme Programming (XP)** and promotes delivering the s
   
 ---  
   
-## 🔑 Key Principles  
+## Key Principles  
   
 ### 1. Build for Today's Needs  
   
@@ -61,7 +70,7 @@ Code that serves no user requirement adds complexity without delivering value.
   
 ---  
   
-## ⚠️ Common YAGNI Violations  
+## Common YAGNI Violations  
   
 ### Premature Abstractions  
   
@@ -105,7 +114,7 @@ Adding dozens of configurable options that nobody changes.
   
 ---  
   
-## 🚫 Overengineered Example  
+## Overengineered Example  
   
 ### Requirement  
   
@@ -187,7 +196,7 @@ Dead code is not free.
   
 ---  
   
-## 🎯 Benefits of Following YAGNI  
+## Benefits of Following YAGNI  
   
 - Faster development  
 - Simpler codebase  
@@ -198,7 +207,7 @@ Dead code is not free.
   
 ---  
   
-## ⚖️ When YAGNI Can Be Relaxed  
+## When YAGNI Can Be Relaxed  
   
 ### Security & Compliance Requirements  
   
@@ -235,15 +244,15 @@ Even then, start small and expand based on actual usage.
   
 ---  
   
-## 🔗 Related Principles  
+## Related Principles  
   
-- [[01-DRY_Principle]]  
-- [[02-KISS_Principle]]  
-- [[04-SOLID_Principles]]  
+- DRY Principle  
+- KISS Principle  
+- SOLID Principles  
   
 ---  
   
-## 📝 Interview Takeaway  
+## Interview Takeaway  
   
 When designing a system:  
   

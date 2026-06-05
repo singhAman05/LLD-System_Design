@@ -1,0 +1,18 @@
+name: Notify Portfolio
+
+on:
+  push:
+    paths:
+      - "**.md"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to portfolio repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PORTFOLIO_PAT }}
+          repository: singhAman05/portfolio
+          event-type: content-sync
+          client-payload: '{"repo": "LLD-System_Design", "ref": "${{ github.ref }}"}'

@@ -1,16 +1,23 @@
-# 📄 notification_system.cpp — Notification System
+﻿---
+title: "Notification System � Polymorphism & Runtime Dispatch"
+series: "Exercises"
+order: 5
+tags: [cpp, oop, polymorphism, inheritance, vectors]
+---
 
-**File:** [[notification_system.cpp]] **Concept:** Inheritance, Polymorphism, `vector` of Pointers, Runtime Dispatch
+# notification_system.cpp — Notification System
+
+**Concept:** Inheritance, Polymorphism, `vector` of Pointers, Runtime Dispatch
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 A notification system that supports multiple delivery channels — Email, SMS, and WhatsApp. All share a common `notification_system` base class. A `notify_user` manager class holds a list of notifications and displays them all, regardless of type.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Polymorphism via `virtual`
 
@@ -47,7 +54,7 @@ void display_notification() override {
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 **Hierarchy:**
 
@@ -79,7 +86,7 @@ Each notification prints its common info first, then its specific field. The `no
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > A `vector<BaseClass*>` + `virtual` functions = powerful **open/closed** design. You can add new notification types (push notification, Slack, etc.) without changing `notify_user` at all.
 

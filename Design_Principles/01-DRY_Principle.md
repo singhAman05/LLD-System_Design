@@ -1,3 +1,12 @@
+﻿---
+title: "DRY Principle — Don't Repeat Yourself"
+series: "Design Principles"
+order: 1
+tags: [design-principles, dry, refactoring, clean-code]
+---
+
+# DRY Principle — Don't Repeat Yourself
+
 ## What is the DRY Principle?
 
 **DRY (Don't Repeat Yourself)** is a software design principle that focuses on eliminating duplication of knowledge and logic within a codebase.
@@ -6,7 +15,7 @@ The goal is to ensure that every piece of business logic has a **single source o
 
 ------
 
-## 🔑 Key Principles
+## Key Principles
 
 ### 1. Single Source of Truth
 
@@ -58,7 +67,7 @@ A good design balances:
 
 ---
 
-## ⚠️ Common Mistakes
+## Common Mistakes
 
 ### Over-Abstraction
 
@@ -90,7 +99,7 @@ When requirements change, inconsistencies can appear across the system.
 
 ---
 
-## 🎯 Benefits of DRY
+## Benefits of DRY
 
 - Easier maintenance
 - Faster updates
@@ -101,15 +110,15 @@ When requirements change, inconsistencies can appear across the system.
 
 ---
 
-## 🔗 Related Principles
+## Related Principles
 
-- [[02-KISS_Principle]]
-- [[03-YAGNI_Principle]]
-- [[04-SOLID_Principles]]
+- KISS Principle
+- YAGNI Principle
+- SOLID Principles
 
 ---
 
-## 📝 Interview Takeaway
+## Interview Takeaway
 
 When designing a system:
 

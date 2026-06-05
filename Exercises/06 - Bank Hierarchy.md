@@ -1,16 +1,23 @@
-# 📄 bank_hierarchy.cpp — Bank Account Hierarchy
+﻿---
+title: "Bank Account Hierarchy � Inheritance in Action"
+series: "Exercises"
+order: 4
+tags: [cpp, oop, inheritance, virtual-methods, protected]
+---
 
-**File:** [[bank_hierarchy.cpp]] **Concept:** Inheritance, Virtual Methods, Override, `protected` Members
+# bank_hierarchy.cpp — Bank Account Hierarchy
+
+**Concept:** Inheritance, Virtual Methods, Override, `protected` Members
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Models a banking system. `BankAccount` is the base class with common deposit/withdraw/display logic. `SavingsAccount` and `CheckingAccount` inherit from it and each override `withdraw()` with their own rules.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### `protected` vs `private`
 
@@ -45,7 +52,7 @@ Used for clean 2-decimal-place output without `setprecision`.
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 **Hierarchy:**
 
@@ -87,7 +94,7 @@ Adds interest on current balance. E.g. 2% on $1000 → balance becomes $1020.
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > Use `protected` when child classes need direct access to parent data. Use `virtual` + `override` to give each subclass its own business rules while sharing a common interface.
 

@@ -1,3 +1,12 @@
+﻿---
+title: "KISS Principle — Keep It Simple"
+series: "Design Principles"
+order: 2
+tags: [design-principles, kiss, simplicity, clean-code]
+---
+
+# KISS Principle — Keep It Simple
+
 ## What is the KISS Principle?
 
 **KISS (Keep It Simple, Stupid)** is a software design principle that encourages developers to choose the simplest solution that effectively solves the problem.
@@ -10,7 +19,7 @@ The principle originated in the U.S. Navy and later became one of the most impor
 
 ---
 
-## 🔑 Key Principles
+## Key Principles
 
 ### 1. Keep Solutions Simple
 
@@ -58,7 +67,7 @@ A function that performs validation, business logic, persistence, and notificati
 
 ---
 
-## 🔄 The Complexity Cycle
+## The Complexity Cycle
 
 ```text
 Harder to Understand
@@ -140,7 +149,7 @@ Benefits:
 
 ---
 
-## ⚠️ Signs You're Violating KISS
+## Signs You're Violating KISS
 
 ### Premature Interfaces
 
@@ -176,7 +185,7 @@ Using advanced language features when simpler constructs would be clearer.
 
 ---
 
-## 🚫 Problems Caused by Complexity
+## Problems Caused by Complexity
 
 ### 1. Harder to Read
 
@@ -202,7 +211,7 @@ Tracing bugs through multiple abstractions increases investigation time.
 
 ---
 
-## 🎯 Benefits of Following KISS
+## Benefits of Following KISS
 
 - Cleaner code
 - Faster development
@@ -214,7 +223,7 @@ Tracing bugs through multiple abstractions increases investigation time.
 
 ---
 
-## 🛠️ Practical Guidelines
+## Practical Guidelines
 
 ### Write Code for Humans
 
@@ -271,7 +280,7 @@ over custom solutions whenever possible.
 
 ---
 
-## ⚖️ When Not to Simplify
+## When Not to Simplify
 
 ### Critical Systems
 
@@ -304,15 +313,15 @@ Simplicity depends on the audience reading the code.
 
 ---
 
-## 🔗 Related Principles
+## Related Principles
 
-- [[01-DRY_Principle]]
-- [[03-YAGNI_Principle]]
-- [[04-SOLID_Principles]]
+- DRY Principle
+- YAGNI Principle
+- SOLID Principles
 
 ---
 
-## 📝 Interview Takeaway
+## Interview Takeaway
 
 When designing a system:
 

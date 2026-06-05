@@ -1,16 +1,23 @@
-# 📄 shape_hierarchy.cpp — Shape Hierarchy (Polymorphism + Dynamic Dispatch)
+﻿---
+title: "Shape Hierarchy � Dynamic Dispatch & Virtual Functions"
+series: "Exercises"
+order: 9
+tags: [cpp, oop, polymorphism, virtual-functions, dynamic-memory]
+---
 
-**File:** [[shape_hierarchy.cpp]] **Concept:** Virtual Functions, Polymorphic Arrays, Dynamic Memory, `M_PI`
+# shape_hierarchy.cpp — Shape Hierarchy (Polymorphism + Dynamic Dispatch)
+
+**Concept:** Virtual Functions, Polymorphic Arrays, Dynamic Memory, `M_PI`
 
 ---
 
-## 🧠 What Does This File Do?
+## What Does This File Do?
 
 Defines a shape hierarchy. `Shape` is the base class with virtual `area()` and `perimeter()`. `circle` and `rectangle` override them. An array of base-class pointers holds different shape types — and polymorphism ensures each calls its own math.
 
 ---
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Virtual (Not Pure Virtual) with Default
 
@@ -66,7 +73,7 @@ for (int i = 0; i < 2; i++) delete shapes[i];
 
 ---
 
-## 🔍 Code Walkthrough
+## Code Walkthrough
 
 ```
 Circle1 (r=5):
@@ -80,7 +87,7 @@ Rectangle1 (4×6):
 
 ---
 
-## 💡 Takeaway
+## Takeaway
 
 > `Shape*` arrays + `virtual` functions = true polymorphism. The loop treats every shape the same, but each one computes its own geometry. This is **runtime polymorphism** via vtable dispatch.
 
