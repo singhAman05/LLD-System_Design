@@ -1,5 +1,5 @@
 ﻿---
-title: "Notification System � Polymorphism & Runtime Dispatch"
+title: "Notification System — Polymorphism & Runtime Dispatch"
 series: "Exercises"
 order: 5
 tags: [cpp, oop, polymorphism, inheritance, vectors]

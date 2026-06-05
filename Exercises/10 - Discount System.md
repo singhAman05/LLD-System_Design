@@ -1,5 +1,5 @@
 ﻿---
-title: "Discount System � Strategy Pattern"
+title: "Discount System — Strategy Pattern"
 series: "Exercises"
 order: 8
 tags: [cpp, oop, polymorphism, strategy-pattern]

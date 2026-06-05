@@ -1,5 +1,5 @@
 ﻿---
-title: "Bank Account Hierarchy � Inheritance in Action"
+title: "Bank Account Hierarchy — Inheritance in Action"
 series: "Exercises"
 order: 4
 tags: [cpp, oop, inheritance, virtual-methods, protected]

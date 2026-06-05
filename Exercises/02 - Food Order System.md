@@ -1,5 +1,5 @@
 ﻿---
-title: "Food Order System � State Management"
+title: "Food Order System — State Management"
 series: "Exercises"
 order: 1
 tags: [cpp, oop, encapsulation, state-management, vectors]

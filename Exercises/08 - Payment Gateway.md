@@ -1,5 +1,5 @@
 ﻿---
-title: "Payment Gateway � Abstract Classes & Dependency Injection"
+title: "Payment Gateway — Abstract Classes & Dependency Injection"
 series: "Exercises"
 order: 6
 tags: [cpp, oop, abstract-class, dependency-injection, polymorphism]

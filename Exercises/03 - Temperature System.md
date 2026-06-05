@@ -1,5 +1,5 @@
 ﻿---
-title: "Temperature Sensor � Data Validation"
+title: "Temperature Sensor — Data Validation"
 series: "Exercises"
 order: 2
 tags: [cpp, oop, validation, stl-algorithms]

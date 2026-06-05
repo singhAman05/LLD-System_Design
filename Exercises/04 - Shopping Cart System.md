@@ -1,5 +1,5 @@
 ﻿---
-title: "Shopping Cart System � Maps & Discount Logic"
+title: "Shopping Cart System — Maps & Discount Logic"
 series: "Exercises"
 order: 3
 tags: [cpp, oop, unordered-map, encapsulation]

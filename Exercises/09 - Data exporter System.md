@@ -1,5 +1,5 @@
 ﻿---
-title: "Data Exporter � Template Method Pattern"
+title: "Data Exporter — Template Method Pattern"
 series: "Exercises"
 order: 7
 tags: [cpp, oop, abstract-class, template-method, design-patterns]

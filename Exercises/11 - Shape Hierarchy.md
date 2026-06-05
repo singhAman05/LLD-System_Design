@@ -1,5 +1,5 @@
 ﻿---
-title: "Shape Hierarchy � Dynamic Dispatch & Virtual Functions"
+title: "Shape Hierarchy — Dynamic Dispatch & Virtual Functions"
 series: "Exercises"
 order: 9
 tags: [cpp, oop, polymorphism, virtual-functions, dynamic-memory]
